@@ -5,3 +5,5 @@
 JetBrains Toolbox is installed by Homebrew. Using JetBrains Toolbox install the following:
     - JetBrains Fleet
     - JetBrains IntelliJ Ultimate
+
+Trello
