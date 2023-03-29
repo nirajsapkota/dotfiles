@@ -2,7 +2,10 @@
 `xcode-select --install`
 
 # Transfer SSH keys
-You can do this using the `scp` command, or, using a USB.
+There are different ways to do this including but not limited to:
+  - Airdrop,
+  - USB,
+  - SCP.
 
 # Clone this repository
 `git clone git@github.com:nirajsapkota/dotfiles.git`
