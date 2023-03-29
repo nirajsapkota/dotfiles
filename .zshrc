@@ -16,4 +16,4 @@ eval "$(starship init zsh)"
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home"
 
 # Aliases
-alias config='/usr/bin/git --git-dir=/Users/nirajsapkota/.cfg/ --work-tree=/Users/nirajsapkota'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
