@@ -23,3 +23,14 @@ JetBrains Toolbox is installed by homebrew in the `Install homebrew and homebrew
 
 - JetBrains Fleet
 - JetBrains IntelliJ Ultimate
+
+# Configuration
+
+## MacOS
+- Dock on left with `Finder`, `Arc`, `Warp`, `System Settings`.
+- Dock auto-hide.
+- Reduce motion.
+- Enable mission control keyboard shortcuts.
+
+## Rectangle
+Set `Gaps between windows` to 20px.
