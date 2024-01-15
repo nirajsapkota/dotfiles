@@ -2,29 +2,21 @@
 `xcode-select --install`
 
 # Transfer SSH keys
-There are different ways to do this including but not limited to:
-  - Airdrop,
-  - USB,
-  - SCP.
+Your SSH keys are stored in your Bitwarden vault.
 
 # Clone this repository
 `git clone git@github.com:nirajsapkota/dotfiles.git`
 
 # Install homebrew and homebrew packages
-`./bootstrap.sh`
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# Install manually
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
-## Install from the Mac App Store
-- Trello
+brew bundle install
+```
 
-## Install from JetBrains Toolbox
-JetBrains Toolbox is installed by homebrew in the `Install homebrew and homebrew packages` step. You can use the JetBrains Toolbox application to install the following:
-
-- JetBrains Fleet
-- JetBrains IntelliJ Ultimate
-
-# Configuration
+# Manual configurations
 
 ## MacOS
 - Dock on left with `Finder`, `Arc`, `Warp`, `System Settings`.
