@@ -8,7 +8,6 @@ plugins=(
 export ZSH="$HOME/.oh-my-zsh"
 source $ZSH/oh-my-zsh.sh
 
-# Load applications 
 source $(brew --prefix nvm)/nvm.sh
 eval "$(starship init zsh)"
 

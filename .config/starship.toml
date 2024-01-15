@@ -1,21 +1,11 @@
-format = " at $all"
-add_newline = false
+format = " at $all"
+add_newline = true 
 
 [directory]
 truncation_length = 1
 
 [battery]
-full_symbol = "🔋 "
-charging_symbol = "⚡️ "
-discharging_symbol = "💀 "
-
-[[battery.display]]
-threshold = 20
-style = "bold red"
-
-[[battery.display]]
-threshold = 45
-style = "bold yellow"
+disabled = true
 
 [aws]
 disabled = true
@@ -27,4 +17,13 @@ disabled = true
 disabled = true
 
 [package]
+disabled = true
+
+[lua]
+disabled = true
+
+[character]
+success_symbol = '[➜](bold green)'
+
+[nodejs]
 disabled = true
