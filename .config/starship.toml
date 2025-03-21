@@ -1,0 +1,10 @@
+format = " at $directory$git_branch$line_break$shell$character"
+add_newline = true 
+
+[character]
+disabled = false 
+success_symbol = '[❯](bold green) '
+error_symbol = '[✗](bold red) '
+
+[directory]
+truncation_length = 1

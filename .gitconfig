@@ -1,0 +1,11 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Niraj Sapkota
+	email = n.sapkota@outlook.com.au 
+[core]
+	excludesfile = /Users/nsapkota/.gitignore_global
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main
