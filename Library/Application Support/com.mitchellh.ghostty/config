@@ -1,5 +1,7 @@
-theme = ayu
+title = " "
+theme = citruszest
 window-width = 100
 window-height = 30
 font-size = 16
 font-family = GeistMono Nerd Font
+macos-titlebar-proxy-icon = hidden
